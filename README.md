@@ -14,5 +14,6 @@ Organization files structure for project
 mkdir src/app && mkdir src/app/containers && mkdir src/app/store && mkdir src/app/actions && mkdir src/app/components && mkdir src/app/reducers && mkdir src/app/constants
 
 mv src/App.* src/app/containers/
+mv src/logo.svg src/app/containers/
 
 # replace in index.js path to App.js : src/app/containers/App
